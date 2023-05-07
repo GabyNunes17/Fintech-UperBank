@@ -1,10 +1,9 @@
-import Home from './Paginas/Home'
-
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
    <div className='App'>
-      <Home/>
+     <Outlet/>
    </div>
   )
 }

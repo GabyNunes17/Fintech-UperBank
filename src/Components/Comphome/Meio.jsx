@@ -3,6 +3,7 @@ import Celular  from '../../assets/celular.png'
 import Cartao from '../../assets/cartao.png'
 import Cash from '../../assets/cash.png'
 
+
 const Meio = () => {
   return (
     <div className='bg-gradient-to-r from-[#1A1E27] to-[#112140] w-full h-[650px]'>
@@ -13,15 +14,15 @@ const Meio = () => {
         </div>
       </div>
 
-      <div className='w-full h-[595px] bg-[Up] '>
-          <div className='bg-white w-72 h-80 rounded-lg ml-40 mt-32 '>
+      <div className="flex h-[560px]" >
+          <div className='bg-white w-72 h-80 rounded-lg ml-40 mt-52 border shadow-2xl'>
             <p className='text-2xl p-10'> Peça seu cartão de crédito do Up<span className='text-[#FF9C09]'>Bank</span></p>
             <div className='flex flex-col space-y-8 m-5'>
               <input type="text" placeholder='Digite seu CPF' className='border rounded-2xl w-60 h-8 shadow-lg p-3'/>
               <button className='w-40 h-7 rounded-2xl bg-[#FF9C09] m-10'>Continuar</button>
             </div>
           </div>
-          <p className='ml-[50%] text-white text-5xl pr-10 space-y-8 mt-20 p-20'>Seu patrimônio em boas mãos conte com a nossa solidez e credibilidade</p>
+          <img className='w-[800px] h-[500px] ml-16 mt-20' src="https://cdn.discordapp.com/attachments/1075545565573689395/1104564248023154739/cartaopng.png"/>
       </div>
 
       <div className='flex'>
@@ -34,7 +35,7 @@ const Meio = () => {
         </div>
       </div>
       
-      <div className='p-5'>
+      <div className='p-5 ml-5'>
         <div className='flex'>
           <div className='w-[40%] space-y-8 pl-16'>
             <p className='text-4xl'>Uper<span className='text-[#FF9C09]'>Shop</span></p>
@@ -49,10 +50,14 @@ const Meio = () => {
           </div>
 
           <div>
-            <img src={Cash}/>
+            <img className='w-[650px] ml-16' src={Cash}/>
           </div>
         </div>
         <button className='w-40 h-7 rounded-2xl bg-[#FF9C09] ml-40'>Continuar</button>
+      </div>
+
+      <div className='w-full h-28 bg-gradient-to-r from-[#1A1E27] to-[#112140] flex flex-col '>
+        <p className='text-white ml-[45%]'>Uper<span className='text-[#FF9C09]'>Bank</span></p>
       </div>
     </div>
   )
