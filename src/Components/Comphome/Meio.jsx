@@ -21,8 +21,8 @@ const Meio = () => {
           <div className='bg-white w-80 h-96 rounded-lg ml-40 mt-52 border shadow-2xl'>
             <p className='text-3xl p-10'> Peça seu cartão de crédito do Up<span className='text-[#FF9C09]'>Bank</span></p>
             <div className='flex flex-col space-y-8 m-5'>
-              <input type="text" placeholder='Digite seu CPF' className='border rounded-2xl w-60 h-8 ml-4 shadow-lg p-3'/>
-              <button className='w-40 h-7 rounded-2xl bg-[#FF9C09] ml-14'>Continuar</button>
+              <input type="text" placeholder='Digite seu CPF' className='border rounded-2xl h-10 w-60 h-8 ml-4 shadow-lg p-3'/>
+              <button className='w-40 rounded-2xl bg-[#FF9C09] ml-14 h-10'>Continuar</button>
             </div>
           </div>
           <img className='w-[800px] h-[600px] ml-16 mt-20' src="https://cdn.discordapp.com/attachments/1075545565573689395/1104564248023154739/cartaopng.png"/>
@@ -34,7 +34,7 @@ const Meio = () => {
         </div>
         <div className='w-[50%] mt-40 h-[30%] flex flex-col'>
           <p className='text-4xl p-24'>Conquiste a <span className='text-[#FF9C09]'>liberdade</span> financeira com nosso cartão de <span className='text-[#FF9C09]'>crédito</span>. Vantagens exclusivas, facilidade e <span className='text-[#FF9C09]'>segurança</span>. Peça já o seu!</p>
-          <button className='w-52 h-7 rounded-2xl ml-60  border shadow-lg  '>Quero ser um <span className='text-[#FF9C09]'>Uper</span></button>
+          <button className='w-52 h-10 rounded-2xl ml-60  border shadow-lg  '>Quero ser um <span className='text-[#FF9C09]'>Uper</span></button>
         </div>
       </div>
       
@@ -56,7 +56,7 @@ const Meio = () => {
             <img className='w-[650px] ml-32' src={Cash}/>
           </div>
         </div>
-        <button className='w-40 h-7 rounded-2xl bg-[#FF9C09] ml-40'>Continuar</button>
+        <button className='w-40 h-10 rounded-2xl bg-[#FF9C09] ml-40'>Continuar</button>
       </div>
 
       <div className='w-full h-52 bg-gradient-to-r from-[#1A1E27] to-[#112140] flex flex-col '>

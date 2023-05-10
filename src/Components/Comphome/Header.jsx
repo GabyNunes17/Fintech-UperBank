@@ -10,7 +10,7 @@ const Header = () => {
                 <p className='text-lg'>Uper<span className=' text-[#FF9C09]' >Bank</span></p>
                 <div className=' text-lg flex ml-56 gap-20 items-center'>
                     <Link to='/'>Home</Link>
-                    <Link to="">Pra você</Link>
+                    <Link to="">Conteúdos</Link>
                     <p>Empresa</p>
                 </div>
             </div>

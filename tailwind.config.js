@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      
+      backgroundImage: {
+        'fundo-sm': "url('./src/assets/fundo.svg')",
+      }
     },
   },
   plugins: [],
