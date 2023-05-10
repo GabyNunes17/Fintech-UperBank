@@ -7,8 +7,8 @@ const Header = () => {
     <div className=''>
         <div className='w-full h-12 flex justify-between items-center'>
             <div className='flex gap-32 ml-40'>
-                <p className=''>Uper<span className=' text-[#FF9C09]' >Bank</span></p>
-                <div className='flex gap-10'>
+                <p className='text-lg'>Uper<span className=' text-[#FF9C09]' >Bank</span></p>
+                <div className=' text-lg flex ml-56 gap-20 items-center'>
                     <Link to='/'>Home</Link>
                     <Link to="">Pra você</Link>
                     <p>Empresa</p>
